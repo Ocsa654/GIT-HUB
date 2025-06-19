@@ -1,5 +1,7 @@
 # Dependencias
 node_modules/
+/.pnp
+.pnp.js
 
 # Vercel
 .vercel/
@@ -9,6 +11,10 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Build y cobertura
+/build
+/coverage
 
 # Logs
 npm-debug.log*
